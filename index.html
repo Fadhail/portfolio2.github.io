@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    1
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio Mochammad Fadhail</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #024d12">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>MFDHL</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="Video/Fadel.jpg" alt="Moch.Fadhail" width="250" class="rounded-circle" />
+      <h1 class="display-4">Mochammad Fadhail Fijratullah</h1>
+      <p class="lead">Pelajar</p>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2><strong>Tentang Saya</strong></h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <h5><strong>Profil dan Edukasi</strong></h5>
+          <div class="col-md-4">Halo, Nama saya Mochammad Fadhail Fijratullah, umur saya 17 tahun, saya kelas 2 SMA. Saya dapat bekerja keras, bekerja sebagai tim, dan saya senang mempelajari hal-hal baru.</div>
+          <div class="col-md-4"><strong>2009-2011</strong>=TK Raudhatul Athfal YA IBNA, <strong>2011-2017</strong>=SDN Cibabat Mandiri 5, <strong>2017-2020</strong>=SMPN 3 Cimahi, <strong>2020-now</strong>=SMAN 3 Cimahi.</div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Skil -->
+    <ul>
+        <div class="row text-center mb-3">
+        <li><h2><strong>Skill</strong></h2></li>
+            <p>Premier Pro<br />
+                <progress min="0" max="100" value="85"></progress>
+            </p><br/>
+            <p>After Effect<br />
+                <progress min="0" max="100" value="50"></progress>
+            </p><br/>
+            <p>Photoshop<br />
+                <progress min="0" max="100" value="80"></progress>
+            </p>
+        </div>
+        </ul>
+     <!-- Akhir Skil -->
+        
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-2">
+          <div class="col">
+            <h2><strong>Projects</strong></h2>
+          </div>
+        </div>
+        <div class="row margin-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <video controls>
+              <source src="Video/Test1.mp4"> 
+            </video>
+              <div class="card-body">
+                <p class="card-text">Coba</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="Video/" class="card-img-top" alt="Project" />
+              <div class="card-body">
+                <p class="card-text">2</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="Video/" class="card-img-top" alt="Project" />
+              <div class="card-body">
+                <p class="card-text">3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2><strong>Kontak</strong></h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> pesan kamu sudah terkirim
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="portfolio-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success btn-kirim">Kirim</button>
+              <button class="btn btn-success btn-loading d-none" type="button" disabled>
+                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer style="background-color: #024d12" class="text-white text-center pb-3">
+      <p>Created by <a href="https://www.instagram.com/moch.fadhail/" class="text-white fw-bold">Mochammad Fadhail</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxZkBYgjt6aQLmo-3b5RS9rYj5Fl15x-X_urBtUsMdN7IjHr-GCv0Q0nxZ1fwfpiCbd/exec";
+      const form = document.forms["portfolio-contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        //ketika tombol loading diklik
+        //tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            //tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            //tampilkan alert
+            myAlert.classList.toggle("d-none");
+            //reset form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
